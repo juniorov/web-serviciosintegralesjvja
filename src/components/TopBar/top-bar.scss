@@ -1,0 +1,40 @@
+#topbar {
+    background: var(--color-primary);
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    color: var(--color-white);
+    padding: 0;
+
+    .contact-info i {
+        font-style: normal;
+        color: var(--color-white);
+
+        a, span {
+            padding-left: 5px;
+            color: var(--color-white);
+        }
+
+        a {
+            line-height: 0;
+            transition: 0.3s;
+            transition: 0.3s;
+
+            &:hover {
+                color: var(--color-white);
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .social-links a {
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 0;
+        transition: 0.3s;
+        margin-left: 20px;
+
+        &:hover {
+            color: var(--color-white);
+        }
+    }
+}

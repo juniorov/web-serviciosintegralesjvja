@@ -1,0 +1,61 @@
+.services .icon-box {
+    text-align: center;
+    border: 1px solid #e2eefd;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: var(--color-white);
+
+    .icon {
+        margin: 0 auto;
+        width: 64px;
+        height: 64px;
+        background: #f1f6fe;
+        border-radius: 4px;
+        border: 1px solid #deebfd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        transition: ease-in-out 0.3s;
+
+        i {
+            color: #3b8af2;
+            font-size: 28px;
+            transition: ease-in-out 0.3s;
+        }
+    }
+
+    h4 {
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 24px;
+
+        a {
+            color: #222222;
+            transition: ease-in-out 0.3s;
+        }
+    }
+
+    p {
+        line-height: 24px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    &:hover {
+        border-color: var(--color-white);
+        box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);
+
+        h4 a {
+            color: var(--color-primary);
+        }
+
+        .icon {
+            i {
+                color: var(--color-primary);
+            }
+
+            border-color: var(--color-primary);
+        }
+    }
+}
