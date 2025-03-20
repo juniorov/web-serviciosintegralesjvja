@@ -5,16 +5,16 @@ const Contact = () => {
         <section id="contact" className="contact">
             <div className="container" data-aos="fade-up">
                 <div className="section-title">
-                    <h2>Contact</h2>
-                    <h3><span>Contact Us</span></h3>
-                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+                    <h2>Contacto</h2>
+                    <h3><span>Contáctenos</span></h3>
+                    <p>Contanos sobre tu proyecto</p>
                 </div>
 
                 <div className="row" data-aos="fade-up" data-aos-delay="100">
                     <div className="col-lg-6">
                         <div className="info-box mb-4">
                             <i className="bx bx-map"></i>
-                            <h3>Our Address</h3>
+                            <h3>Dirección</h3>
                             <p>A108 Adam Street, New York, NY 535022</p>
                         </div>
                     </div>
@@ -22,16 +22,16 @@ const Contact = () => {
                     <div className="col-lg-3 col-md-6">
                         <div className="info-box  mb-4">
                             <i className="bx bx-envelope"></i>
-                            <h3>Email Us</h3>
-                            <p>contact@example.com</p>
+                            <h3>Email</h3>
+                            <p>contacto@jvjasoluciones.com</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-6">
                         <div className="info-box  mb-4">
                             <i className="bx bx-phone-call"></i>
-                            <h3>Call Us</h3>
-                            <p>+1 5589 55488 55</p>
+                            <h3>Llamanos</h3>
+                            <p>+506 7035 9524</p>
                         </div>
                     </div>
 
@@ -47,24 +47,24 @@ const Contact = () => {
                         <form action="forms/contact.php" method="post" className="php-email-form">
                             <div className="row">
                                 <div className="col form-group">
-                                <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
+                                <input type="text" name="name" className="form-control" id="name" placeholder="Nombre" required />
                                 </div>
                                 <div className="col form-group">
-                                <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required/>
+                                <input type="email" className="form-control" name="email" id="email" placeholder="Email" required/>
                                 </div>
                             </div>
                             <div className="form-group">
-                                <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required/>
+                                <input type="text" className="form-control" name="subject" id="subject" placeholder="Asunto" required/>
                             </div>
                             <div className="form-group">
-                                <textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                <textarea className="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
                             </div>
                             <div className="my-3">
                                 <div className="loading">Loading</div>
                                 <div className="error-message"></div>
-                                <div className="sent-message">Your message has been sent. Thank you!</div>
+                                <div className="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
                             </div>
-                            <div className="text-center"><button type="submit">Send Message</button></div>
+                            <div className="text-center"><button type="submit">Enviar</button></div>
                         </form>
                     </div>
                 </div>

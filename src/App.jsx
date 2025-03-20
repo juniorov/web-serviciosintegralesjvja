@@ -17,9 +17,7 @@ import Featured from './components/Featured/Featured';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
-import Skills from './components/Skills/Skills';
 import Faq from './components/Faq/Faq';
-import Counts from './components/Counts/Counts';
 import Pricing from './components/Pricing/Pricing';
 import Clients from './components/Clients/Clients';
 import Team from './components/Team/Team';
@@ -44,8 +42,6 @@ function App() {
       <main>
         <Featured />
         <About />
-        <Skills />
-        <Counts />
         <Clients />
         <Services />
         <Testimonials />

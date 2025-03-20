@@ -6,7 +6,7 @@ const About = () => {
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
-                    <h2>About</h2>
+                    <h2>Acerca de Nosotros</h2>
                     <h3>Find Out More <span>About Us</span></h3>
                     <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
                 </div>
@@ -16,31 +16,14 @@ const About = () => {
                         <img src="/assets/images/about.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                        <h3>Misión</h3>
                         <p className="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
+                            En <strong>SERVICIOS INTEGRALES JV & JA S.R.L.</strong>, nos comprometemos a ofrecer soluciones integrales e innovadoras en diseño gráfico, desarrollo de software y creación de páginas web, impulsando el crecimiento de nuestros clientes a través de la tecnología, la creatividad y el servicio personalizado. Además, diversificamos nuestras operaciones en los sectores de agricultura, turismo, comercio exterior y transporte, generando valor sostenible y contribuyendo al desarrollo económico y social de nuestras comunidades.
                         </p>
-                        <ul>
-                            <li>
-                                <i className="bx bx-store-alt"></i>
-                                <div>
-                                <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                                <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                                </div>
-                            </li>
-                            <li>
-                                <i className="bx bx-images"></i>
-                                <div>
-                                <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                                <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum
+
+                        <h3 className='mt-5'>Visión</h3>
+                        <p className="fst-italic">
+                            Ser una empresa líder a nivel nacional e internacional en el diseño gráfico, desarrollo de software y páginas web, reconocida por nuestra calidad, responsabilidad y compromiso con la innovación. Aspiramos a expandir nuestras áreas de negocio en agricultura, turismo, exportación e importación, y transporte, consolidándonos como un grupo empresarial versátil, confiable y competitivo.
                         </p>
                     </div>
                 </div>
