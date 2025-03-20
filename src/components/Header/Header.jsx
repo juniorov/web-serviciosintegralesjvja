@@ -23,7 +23,7 @@ const Header = () => {
         <header id="header" className="d-flex align-items-center">
             <div className="container d-flex align-items-center justify-content-between">
 
-                <h1 className="logo">
+                <h1 className="logo mt-5 mb-5">
                     <a href="/">
                         <img src="/assets/images/logo.png" alt="Logo Servicios Integrales JVJA" />
                     </a>
