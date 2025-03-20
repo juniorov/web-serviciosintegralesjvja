@@ -23,8 +23,11 @@ const Header = () => {
         <header id="header" className="d-flex align-items-center">
             <div className="container d-flex align-items-center justify-content-between">
 
-                <h1 className="logo"><a href="index.html">BizLand<span>.</span></a></h1>
-                {/* <a href="index.html" className="logo"><img src="assets/img/logo.png" alt=""></a> */}
+                <h1 className="logo">
+                    <a href="/">
+                        <img src="/assets/images/logo.png" alt="Logo Servicios Integrales JVJA" />
+                    </a>
+                </h1>
 
                 <Navigation />
             </div>
