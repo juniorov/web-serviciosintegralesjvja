@@ -13,7 +13,7 @@ const About = () => {
 
                 <div className="row">
                     <div className="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                        <img src="/assets/img/about.jpg" className="img-fluid" alt="" />
+                        <img src="/assets/images/about.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
