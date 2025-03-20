@@ -12,22 +12,24 @@
     .logo {
         font-size: 30px;
         margin: 0;
-        padding: 0;
+        padding: 10px 0;
         line-height: 1;
         font-weight: 600;
         letter-spacing: 0.8px;
         font-family: "Poppins", sans-serif;
 
         a {
+            display: block;
+            padding: 5px 0;
             color: #222222;
-
+            height: 60px;
             span {
                 color: var(--color-primary);
             }
         }
 
         img {
-            max-height: 70px;
+            height: 100%;
         }
     }
 }

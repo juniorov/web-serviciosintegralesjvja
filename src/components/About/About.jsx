@@ -18,12 +18,12 @@ const About = () => {
                     <div className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         <h3>Misión</h3>
                         <p className="fst-italic">
-                            En <strong>SERVICIOS INTEGRALES JV & JA S.R.L.</strong>, nos comprometemos a ofrecer soluciones integrales e innovadoras en diseño gráfico, desarrollo de software y creación de páginas web, impulsando el crecimiento de nuestros clientes a través de la tecnología, la creatividad y el servicio personalizado. Además, diversificamos nuestras operaciones en los sectores de agricultura, turismo, comercio exterior y transporte, generando valor sostenible y contribuyendo al desarrollo económico y social de nuestras comunidades.
+                            En <strong>SERVICIOS INTEGRALES JV & JA S.R.L.</strong>, nos especializamos en ofrecer soluciones tecnológicas innovadoras y de alta calidad. Desarrollamos software a la medida, páginas web funcionales y atractivas, y brindamos servicios de diseño gráfico y asesoría profesional, orientados a potenciar el crecimiento y la eficiencia de nuestros clientes. Nuestro compromiso es crear herramientas que se adapten a sus necesidades, generando valor y confianza a través de la tecnología.
                         </p>
 
                         <h3 className='mt-5'>Visión</h3>
                         <p className="fst-italic">
-                            Ser una empresa líder a nivel nacional e internacional en el diseño gráfico, desarrollo de software y páginas web, reconocida por nuestra calidad, responsabilidad y compromiso con la innovación. Aspiramos a expandir nuestras áreas de negocio en agricultura, turismo, exportación e importación, y transporte, consolidándonos como un grupo empresarial versátil, confiable y competitivo.
+                            Ser reconocidos como una empresa líder en el desarrollo de soluciones tecnológicas, destacándonos por la calidad de nuestros servicios, la atención personalizada y la innovación en el diseño gráfico, el desarrollo de software a la medida, las páginas web y las asesorías especializadas. Aspiramos a ser el aliado estratégico de las empresas que buscan crecer y transformarse digitalmente.
                         </p>
                     </div>
                 </div>
