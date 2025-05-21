@@ -7,8 +7,8 @@ const About = () => {
 
                 <div className="section-title">
                     <h2>Acerca de Nosotros</h2>
-                    <h3>Find Out More <span>About Us</span></h3>
-                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+                    <h3>Conoce sobre <span>Nosotros</span></h3>
+                    <p>Conoce sobre nosotros, nuestra misión, visión y valores.</p>
                 </div>
 
                 <div className="row">

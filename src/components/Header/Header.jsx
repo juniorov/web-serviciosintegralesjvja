@@ -25,7 +25,7 @@ const Header = () => {
 
                 <h1 className="logo mt-5 mb-5">
                     <a href="/">
-                        <img src="/assets/images/logo.png" alt="Logo Servicios Integrales JVJA" />
+                        <img src="/assets/images/logo.png" alt="Logo Servicios Integrales JV & JA" />
                     </a>
                 </h1>
 

@@ -40,7 +40,7 @@ const Contact = () => {
                 <div className="row" data-aos="fade-up" data-aos-delay="100">
 
                     <div className="col-lg-6 ">
-                        <iframe className="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameBorder="0" allowFullScreen></iframe>
+                        <iframe className="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.961205117418!2d-84.21656698791895!3d10.020060172644888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f9db3ac74b7d%3A0x2767c19c1a5fbe02!2sParque%20Eloy%20Alfaro%20Delgado!5e0!3m2!1ses-419!2scr!4v1747869451261!5m2!1ses-419!2scr" frameBorder="0" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                     <div className="col-lg-6">
