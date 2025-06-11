@@ -67,6 +67,7 @@ const Footer = () => {
                     &copy; Copyright <strong><span>Servicios Integrales JV & JA</span></strong>. Todos los derechos reservados
                 </div>
             </div>
+            <img src="https://tracker.metricool.com/c3po.jpg?hash=44750f9cd1c3b1a459eb750f226a8f28" alt="Metricool"/>
         </footer>
     )
 }
