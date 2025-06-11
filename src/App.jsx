@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'boxicons/css/boxicons.min.css';
 import 'glightbox/dist/css/glightbox.min.css';
 
-
 import './styles/back-button.scss';
 import './styles/general.scss';
 import './styles/sections-general.scss';
