@@ -13,14 +13,14 @@ const Team = () => {
 
                 <div className="row justify-content-center">
 
-                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         <div className="member">
                             <div className="member-img">
                                 <img src="/assets/images/aliados/sca-negro.jpg" className="img-fluid sca-medina" alt="SCA Medina" />
                                 <div className="social">
+                                    <a href=""><i class="bi bi-globe"></i></a>
                                     <a href="https://www.facebook.com/profile.php?id=100067780363565" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
                                     <a href="https://www.instagram.com/sca.medina.srl" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
-                                    <a href="" className='d-none'><i className="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div className="member-info">
@@ -30,11 +30,10 @@ const Team = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div className="member">
                             <div className="member-img">
-                                <img src="/assets/images/aliados/pacifico-legal-y-financiero.jpg" className="img-fluid" alt="Pacifico Legal y Financiero
-" />
+                                <img src="/assets/images/aliados/pacifico-legal-y-financiero.jpg" className="img-fluid" alt="Pacifico Legal y Financiero" />
                                 <div className="social">
                                     <a href="https://www.facebook.com/PacificoLegalyFinanciero" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
                                     <a href="https://www.instagram.com/pacificolegalyfinanciero" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
@@ -48,7 +47,7 @@ const Team = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch d-none" data-aos="fade-up" data-aos-delay="300">
+                    <div className="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center d-none" data-aos="fade-up" data-aos-delay="300">
                         <div className="member">
                             <div className="member-img">
                                 <img src="/assets/images/team/team-3.jpg" className="img-fluid" alt="" />

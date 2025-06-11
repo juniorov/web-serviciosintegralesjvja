@@ -1,0 +1,103 @@
+// 1. Definición de los Breakpoints de Bootstrap 4
+// Estos son los valores por defecto de Bootstrap 4
+$breakpoints: (
+    xs: 0,       // Extra small devices (portrait phones)
+    sm: 576px,   // Small devices (landscape phones)
+    md: 768px,   // Medium devices (tablets)
+    lg: 992px,   // Large devices (desktops)
+    xl: 1200px   // Extra large devices (large desktops)
+) !default;
+
+// 2. Mixin para media-breakpoint-up (min-width)
+// Aplica estilos desde el breakpoint especificado hacia arriba.
+@mixin media-up($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        $min-width: map-get($breakpoints, $breakpoint);
+        @if $min-width == 0 {
+            // Para 'xs', no se necesita media query ya que es el default mobile-first
+            @content;
+        } @else {
+            @media (min-width: $min-width) {
+                @content;
+            }
+        }
+    } @else {
+        @warn "El breakpoint '#{$breakpoint}' no está definido en $breakpoints.";
+    }
+}
+
+// 3. Mixin para media-breakpoint-down (max-width)
+// Aplica estilos desde el breakpoint especificado hacia abajo.
+// Nota: Restamos 0.02px para evitar problemas de renderizado en algunos navegadores
+// cuando el ancho de la ventana es exactamente el límite.
+@mixin media-down($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        $max-width: map-get($breakpoints, $breakpoint) - 0.02px;
+        @if $breakpoint == xs { // Si es xs, se aplica hasta el siguiente breakpoint (sm)
+            $next-breakpoint-width: map-get($breakpoints, sm) - 0.02px;
+            @media (max-width: $next-breakpoint-width) {
+                @content;
+            }
+        } @else if $breakpoint == xl { // Para 'xl' no hay un "hasta abajo" específico en este mixin, es ilimitado hacia arriba.
+            // Podrías decidir qué hacer aquí, pero comúnmente 'down' se usa para limites superiores.
+            // Para XL down, sería todo, así que no se necesitaría un media query.
+            @content;
+        } @else {
+            @media (max-width: $max-width) {
+                @content;
+            }
+        }
+    } @else {
+        @warn "El breakpoint '#{$breakpoint}' no está definido en $breakpoints.";
+    }
+}
+
+
+// 4. Mixin para un solo breakpoint (between)
+// Aplica estilos solo para el rango de un breakpoint específico.
+@mixin media-only($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        $min-width: map-get($breakpoints, $breakpoint);
+        $next-breakpoint: null;
+
+        @if $breakpoint == xs {
+            $next-breakpoint: sm;
+        } @else if $breakpoint == sm {
+            $next-breakpoint: md;
+        } @else if $breakpoint == md {
+            $next-breakpoint: lg;
+        } @else if $breakpoint == lg {
+            $next-breakpoint: xl;
+        }
+
+        @if $next-breakpoint {
+            $max-width: map-get($breakpoints, $next-breakpoint) - 0.02px;
+            @media (min-width: $min-width) and (max-width: $max-width) {
+                @content;
+            }
+        } @else if $breakpoint == xl {
+            // Para XL, es el breakpoint más grande, va desde su min-width hacia arriba.
+            @media (min-width: $min-width) {
+                @content;
+            }
+        } @else {
+            @warn "No se pudo determinar el rango para el breakpoint '#{$breakpoint}'.";
+        }
+    } @else {
+        @warn "El breakpoint '#{$breakpoint}' no está definido en $breakpoints.";
+    }
+}
+
+// 5. Mixin para un rango entre dos breakpoints
+@mixin media-between($lower-breakpoint, $upper-breakpoint) {
+    @if map-has-key($breakpoints, $lower-breakpoint) and map-has-key($breakpoints, $upper-breakpoint) {
+        $min-width: map-get($breakpoints, $lower-breakpoint);
+        $max-width: map-get($breakpoints, $upper-breakpoint) - 0.02px;
+
+        @media (min-width: $min-width) and (max-width: $max-width) {
+            @content;
+        }
+    } @else {
+        @warn "Uno o ambos breakpoints ('#{$lower-breakpoint}', '#{$upper-breakpoint}') no están definidos en $breakpoints.";
+    }
+}

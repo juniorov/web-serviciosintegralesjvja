@@ -1,3 +1,5 @@
+@import '../../styles/breakpoints.scss';
+
 .team {
     padding: 60px 0;
 
@@ -7,7 +9,14 @@
         border-radius: 4px;
         background: var(--color-white);
         box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
-        width: 305px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @include media-up(md) {
+            width: 305px;
+        }
 
         .member-img {
             position: relative;
@@ -37,7 +46,7 @@
             left: 0;
             bottom: 30px;
             right: 0;
-            opacity: 0;
+            opacity: 1;
             transition: ease-in-out 0.3s;
             text-align: center;
 
@@ -45,12 +54,13 @@
                 transition: color 0.3s;
                 color: #222222;
                 margin: 0 3px;
-                padding-top: 7px;
                 border-radius: 4px;
                 width: 36px;
                 height: 36px;
                 background: rgba(16, 110, 234, 0.8);
-                display: inline-block;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
                 transition: ease-in-out 0.3s;
                 color: var(--color-white);
 
@@ -61,6 +71,10 @@
 
             i {
                 font-size: 18px;
+            }
+
+            @include media-up(md) {
+                opacity: 0;
             }
         }
 
@@ -89,9 +103,11 @@
             }
         }
 
-        &:hover .social {
-            opacity: 1;
-            bottom: 15px;
+        @include media-up(md) {
+            &:hover .social {
+                opacity: 1;
+                bottom: 15px;
+            }
         }
     }
 }
