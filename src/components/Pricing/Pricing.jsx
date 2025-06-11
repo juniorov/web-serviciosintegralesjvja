@@ -11,9 +11,8 @@ const Pricing = () => {
                     <p>Tenemos los productos que necesitas para tu negocio, y si no lo tienes, lo creamos.</p>
                 </div>
 
-                <div className="row">
-
-                    <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div className="row justify-content-center">
+                    <div className="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                         <div className="box">
                             <h3>Sys Human</h3>
                             <ul>
@@ -30,7 +29,7 @@ const Pricing = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+                    <div className="col-md-6 col-lg-3 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
                         <div className="box featured">
                             <h3>Tu QR CR</h3>
                             <ul>
@@ -47,15 +46,15 @@ const Pricing = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div className="col-md-6 col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                         <div className="box">
                             <h3>Mi Mercadito CR</h3>
                             <ul>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                                <li>Pharetra massa</li>
-                                <li>Massa ultricies mi</li>
+                                <li>Mayor Visibilidad y Alcance de Clientes</li>
+                                <li>Oportunidad de Crecimiento y Competitividad</li>
+                                <li>Reducción de Riesgos del Efectivo</li>
+                                <li>Conveniencia y Seguridad para el Comprador</li>
+                                <li>Ampliación de Clientes</li>
                             </ul>
                             <div className="btn-wrap">
                                 <a href="https://mimercaditocr.com/" target="_blank" className="btn-buy">Visitar</a>
@@ -63,7 +62,7 @@ const Pricing = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+                    <div className="col-md-6 col-lg-3 mt-4 mt-lg-0 d-none" data-aos="fade-up" data-aos-delay="400">
                         <div className="box">
                             <span className="advanced d-none">Advanced</span>
                             <h3>Sys Education</h3>
