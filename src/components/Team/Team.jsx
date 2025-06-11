@@ -16,7 +16,7 @@ const Team = () => {
                     <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                         <div className="member">
                             <div className="member-img">
-                                <img src="/assets/images/team/team-1.jpg" className="img-fluid" alt="" />
+                                <img src="/assets/images/aliados/sca-negro.jpg" className="img-fluid sca-medina" alt="SCA Medina" />
                                 <div className="social">
                                     <a href="https://www.facebook.com/profile.php?id=100067780363565" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
                                     <a href="https://www.instagram.com/sca.medina.srl" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
@@ -25,7 +25,7 @@ const Team = () => {
                             </div>
                             <div className="member-info">
                                 <h4>SCA Medina</h4>
-                                <span>Aliado Estratégico</span>
+                                <span>Contables / Administrativos / Tributarios / Financieros / Afines.</span>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,8 @@ const Team = () => {
                     <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                         <div className="member">
                             <div className="member-img">
-                                <img src="/assets/images/team/team-2.jpg" className="img-fluid" alt="" />
+                                <img src="/assets/images/aliados/pacifico-legal-y-financiero.jpg" className="img-fluid" alt="Pacifico Legal y Financiero
+" />
                                 <div className="social">
                                     <a href="https://www.facebook.com/PacificoLegalyFinanciero" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
                                     <a href="https://www.instagram.com/pacificolegalyfinanciero" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
@@ -42,7 +43,7 @@ const Team = () => {
                             </div>
                             <div className="member-info">
                                 <h4>Pacifico Legal y Financiero </h4>
-                                <span>Product Manager</span>
+                                <span>Soluciones legales y financieras para negocios y personas.</span>
                             </div>
                         </div>
                     </div>
