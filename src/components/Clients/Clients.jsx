@@ -2,7 +2,7 @@ import './clients.scss';
 
 const Clients = () => {
     return (
-        <section id="clients" className="clients section-bg">
+        <section id="clients" className="clients section-bg d-none">
             <div className="container" data-aos="zoom-in">
 
                 <div className="row">

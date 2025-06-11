@@ -2,7 +2,7 @@ import './faq.scss';
 
 export const Faq = () => {
     return (
-        <section id="faq" className="faq section-bg">
+        <section id="faq" className="faq section-bg d-none">
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
