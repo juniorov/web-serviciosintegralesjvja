@@ -22,6 +22,7 @@ import Services from './components/Services/Services';
 import Team from './components/Team/Team';
 import Testimonials from './components/Tertimonials/Testimonials';
 import TopBar from './components/TopBar/TopBar';
+import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 
 AOS.init({
   duration: 1000,
@@ -31,6 +32,10 @@ AOS.init({
 });
 
 function App() {
+
+  if (window.location.pathname === '/politica-de-privacidad' || window.location.pathname === '/politica-de-privacidad/') {
+    return <PrivacyPolicy />;
+  }
 
   return (
     <>

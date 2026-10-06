@@ -46,6 +46,7 @@ const Footer = () => {
                             <ul>
                                 <li><i className="bx bx-chevron-right"></i> <a href="https://www.facebook.com/jvjasoluciones" target="_blank">Facebook</a></li>
                                 <li><i className="bx bx-chevron-right"></i> <a href="https://instagram.com/jvjasoluciones" target="_blank">Instagram</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="/politica-de-privacidad">Política de privacidad</a></li>
                             </ul>
                         </div>
 
